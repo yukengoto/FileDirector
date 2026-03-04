@@ -6,7 +6,7 @@
 
 ## ダウンロード
 
-**[インストーラーをダウンロード](https://github.com/yukengoto/FileDirector/releases/download/20251006/install_FileDirector.bat)**
+**[インストーラーをダウンロード](https://github.com/confinedinfinity/FileDirector/releases/download/20251006/install_FileDirector.bat)**
 
 `install_FileDirector.bat` を実行するとインストールできます。
 
@@ -14,7 +14,7 @@
 
 ## はじめてガイド
 
-**[Getting Started →](https://yukengoto.github.io/FileDirector/GETTING_STARTED.html)**
+**[Getting Started →](https://confinedinfinity.github.io/FileDirector/GETTING_STARTED.html)**
 
 スクリーンショット付きで5ステップを紹介しています。
 
@@ -52,7 +52,7 @@
 
 | | |
 |--|--|
-| [はじめてガイド](https://yukengoto.github.io/FileDirector/GETTING_STARTED.html) | 最初にここを読む |
-| [FFmpegガイド](https://github.com/yukengoto/FileDirector/blob/main/FFMPEG_GUIDE.md) | 動画変換・音声抽出 |
-| [ユーザーガイド](https://github.com/yukengoto/FileDirector/blob/main/USER_GUIDE.md) | タグ詳細・Web UIなど |
-| [リファレンス](https://github.com/yukengoto/FileDirector/blob/main/REFERENCE.md) | ショートカット・設定一覧 |
+| [はじめてガイド](https://confinedinfinity.github.io/FileDirector/GETTING_STARTED.html) | 最初にここを読む |
+| [FFmpegガイド](https://github.com/confinedinfinity/FileDirector/blob/main/FFMPEG_GUIDE.md) | 動画変換・音声抽出 |
+| [ユーザーガイド](https://github.com/confinedinfinity/FileDirector/blob/main/USER_GUIDE.md) | タグ詳細・Web UIなど |
+| [リファレンス](https://github.com/confinedinfinity/FileDirector/blob/main/REFERENCE.md) | ショートカット・設定一覧 |
