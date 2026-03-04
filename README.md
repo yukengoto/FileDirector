@@ -6,9 +6,9 @@
 
 ## ダウンロード
 
-**[最新版をダウンロード](https://github.com/yukengoto/FileDirector/releases/tag/20251006)**
+**[インストーラーをダウンロード](https://github.com/yukengoto/FileDirector/releases/download/20251006/install_FileDirector.bat)**
 
-ZIPを解凍して `FileDirector.exe` を起動するだけで使えます。インストール不要。
+`install_FileDirector.bat` を実行するとインストールできます。
 
 ---
 
