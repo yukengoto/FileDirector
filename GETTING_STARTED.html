@@ -40,7 +40,7 @@
 </head>
 <body>
 <h1>FileDirector はじめてガイド</h1>
-<p>FileDirectorで何ができるか、5つのステップで体験します。</p>
+<p>FileDirectorで何ができるか、7つのステップで体験します。</p>
 <hr />
 <h2>Step 1: 起動する</h2>
 <p><code>FileDirector.exe</code> をダブルクリックするとアプリが起動します。</p>
@@ -95,19 +95,22 @@
 <p><strong>安心:</strong> 元のファイルは移動・変更されません。ファイルの場所だけを記録します。</p>
 </blockquote>
 <hr />
-<h2>Step 5: 似た動画・画像を探す・分類する</h2>
+<h2>Step 5: 特徴量を自動抽出する</h2>
 <p>FileDirector は AI を使って、ファイルの「特徴量」を自動で抽出します。</p>
-<h3>特徴量の自動抽出</h3>
 <p>DB を開くと、<strong>バックグラウンドで自動的に特徴量の抽出が始まります。</strong> 初回は全ファイルを処理するため時間がかかりますが、操作を続けながら待てます。</p>
 <blockquote>
 <p><strong>補足:</strong> 初回は Python ライブラリのセットアップが自動で行われます（数分かかります）。</p>
 </blockquote>
 <p>進捗は <strong>特徴量管理</strong> タブで確認できます。「<strong>特徴量: N/N件完了</strong>」がファイル総数と一致し、処理状況に「<strong>完了</strong>」と表示されれば抽出完了です。</p>
-<p><img alt="特徴量管理タブ" src="images/gs_10_feature_management.png" /></p>
+<p><img alt="特徴量抽出の完了表示" src="images/gs_10a_feature_complete.png" /></p>
 <p>抽出が完了すると、リストの右クリックメニューから <strong>類似ソート</strong> が使えるようになります。また <strong>SEARCH</strong> ボタンからフレーム単位の類似検索もできます。</p>
-<h3>分類する</h3>
-<p><strong>グループ分け（分類）</strong> セクションで <strong>K-Means（推奨）</strong> を選んで <strong>実行</strong> をクリックすると、似たファイルどうしを自動でグループ分けできます。</p>
-<h3>似たフレームを探す</h3>
+<hr />
+<h2>Step 6: ファイルを自動分類する</h2>
+<p>特徴量を使って、似たファイルどうしを自動でグループ分けできます。</p>
+<p><img alt="グループ分け（分類）の実行ボタン" src="images/gs_10b_feature_classify.png" /></p>
+<p><strong>グループ分け（分類）</strong> セクションで <strong>K-Means（推奨）</strong> を選んで <strong>実行</strong> をクリックします。</p>
+<hr />
+<h2>Step 7: 似たフレームを探す</h2>
 <p>ツールバーの <strong>SEARCH</strong> ボタンからフレーム検索ダイアログを開けます。</p>
 <p><img alt="特徴量検索の結果" src="images/gs_09_feature_search.png" /></p>
 <p><strong>フレーム検索</strong> タブで <strong>+ Add Current Frame</strong> をクリックすると、現在プレイヤーで再生中のフレームが参照フレームとして追加されます。参照フレームを追加したら <strong>Search</strong> をクリックすると、類似度の高い順にファイルが表示されます。検索中は左側の <strong>処理状況</strong> パートに進捗が表示されます。<strong>キーワード検索</strong> タブに切り替えるとテキストで検索することもできます。</p>
