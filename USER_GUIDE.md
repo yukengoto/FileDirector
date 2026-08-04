@@ -116,19 +116,27 @@ FFmpegと連携した動画変換機能です。ファイルを右クリック �
 
 ---
 
-## ファイル整理（File Finder）
+## DBメンテナンス（DB Maintenance）
 
-メニュー → **Open File Finder Tab** から起動します。移動・リネーム・重複ファイルの検出と整理ができます。
+DBページのツールバー **MAINTAIN**、またはメニュー → **Open DB Maintenance Tab** から起動します。
+DBの登録内容を直す操作を集めた画面です。
 
 | モード | 内容 |
 |--------|------|
-| **FIND MOVED FILES** | ファイルが移動した場合にDBのパスを更新 |
-| **FIND RENAMED FILES** | リネームされたファイルをDBに反映 |
-| **FIND DUPLICATES** | 重複ファイルを検出・整理 |
-| **FIND DUPLICATES IN ALL DBS** | 全DB横断で重複を検索 |
+| **FIND DUPLICATES** | 指定したフォルダ（またはDB）の中の重複ファイルを検出。サイズ一致＋先頭1MBの内容一致で判定 |
 | **MERGE 2 DBS** | 2つのDBを統合 |
+| **COMMONIZE ATTRIBUTES** | 2つのDBで属性を揃える |
 | **REMOVE NON-EXISTING FILES** | 存在しないファイルのDB登録を削除 |
-| **SCAN FOLDER** | フォルダをスキャンしてDB未登録ファイルを検出 |
+| **FIX FILE NAME ENCODING** | 文字化けしたファイル名を修正 |
+
+### 他の画面に移った操作
+
+| やりたいこと | 今の場所 |
+|---|---|
+| フォルダをDBに登録する | **ファイルマネージャ**の **ADD** ボタン（フォルダを選択、未選択なら開いているフォルダ） |
+| 移動したファイルにDBを追従させる | **ファイルマネージャ**で移動先フォルダを開き、右クリック → **Find moved files in this folder...** |
+| DB間の重複を調べて解消する | **Collection** タブの **Health**（DB組ごとの集計 → 内訳 → ごみ箱へ移動） |
+| DB未登録のメディアを探す | **Collection** タブの **Health** → フォルダ照合 |
 
 ---
 
